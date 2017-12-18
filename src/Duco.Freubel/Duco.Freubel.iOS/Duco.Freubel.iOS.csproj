@@ -50,6 +50,7 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>TestAppDuco</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -150,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Duco.Freubel\Duco.Freubel.csproj">
-      <Project>{97D288AA-27DA-42F6-9FD2-F52E04C0D1DC}</Project>
+      <Project>{59E03C3A-CB03-4C29-B2A3-880EE5456E50}</Project>
       <Name>Duco.Freubel</Name>
     </ProjectReference>
   </ItemGroup>
