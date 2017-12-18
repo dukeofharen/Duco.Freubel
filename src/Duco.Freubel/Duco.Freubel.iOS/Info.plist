@@ -50,5 +50,9 @@
 	<string>Duco.Freubel</string>
 	<key>CFBundleIdentifier</key>
 	<string>nl.quintor.testapp</string>
+	<key>UIRequiredDeviceCapabilities</key>  
+	<array>  
+		<string>arm64</string>  
+	</array>  
 </dict>
 </plist>
