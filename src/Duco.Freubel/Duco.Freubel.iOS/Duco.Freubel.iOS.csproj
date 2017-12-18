@@ -87,6 +87,7 @@
     <CodesignProvision>Automatic:AppStore</CodesignProvision>
     <CodesignKey>iPhone Distribution</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Implementations\FileStorage.cs" />
